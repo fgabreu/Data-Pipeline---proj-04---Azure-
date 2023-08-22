@@ -1,5 +1,8 @@
 # Data-Pipeline---proj-05---Azure
-Data Pipeline with Azure Databricks
+Projeto Prático de uma Pipeline de dados do curso: Databricks e Data Factory: criando e orquestrando pipelines na nuvem da Alura.
+link do curso: https://cursos.alura.com.br/course/databricks-data-factory-pipelines-nuvem
+
+ESTUDO DE CASO:
 
 Fomos contratados como pessoas engenheiras de dados em uma empresa imobiliária. Como nossa primeira tarefa, precisamos desenvolver um pipeline de engenharia de dados, usando recursos da ferramenta de Cloud utilizada pela empresa, a Microsoft Azure.
 
@@ -28,6 +31,8 @@ O que foi feito:
 - Criamos os notebooks no Databricks
 - Criamos o recurso do Data Factory
 - Estruturamos o pipeline
+
+Todos os arquivos de configuração e os códigos feitos na linguagem Scala no databricks estão disponíveis nos arquivos deste repositório.
 
 Conforme a regra de negócios, novos dados de imóveis serão periodicamente adicionados ao nosso Data Lake, com uma frequência de atualização de uma vez por hora. Para garantir que nosso pipeline seja executado de acordo com esse intervalo de tempo, foi necessario configurar um gatilho no Azure Data Factory.
 O gatilho é responsável por acionar a execução do pipeline sempre que novos dados forem detectados. Dessa forma, podemos automatizar o fluxo de processamento dos dados, garantindo que as transformações e atividades sejam realizadas regularmente e de acordo com o intervalo desejado.
